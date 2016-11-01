@@ -4,7 +4,9 @@ Yii2 login  safe extension
 Yii2 登录安全机制
 登录频率限制
 使用方法
+
     配置文件  main.php
+	
       'components' => [
 				  //与 cacheName 对应，缓存存储方式可自己定义
 				  'cache' => [
@@ -20,7 +22,9 @@ Yii2 登录安全机制
 					]
                           
         ],
-     使用 LoginFrom.php
+		
+    使用 LoginFrom.php
+	 
       public function beforeValidate()
       {
           parent::beforeValidate();
